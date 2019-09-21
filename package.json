@@ -7,7 +7,9 @@
     "test": "mocha",
     "dev": "nodemon server",
     "debug": "ndb server",
-    "start": "node server"
+    "start": "node server",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
   },
   "keywords": [],
   "engines": {
